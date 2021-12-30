@@ -1,0 +1,45 @@
+:root {
+  --color-primary: #a45002;
+  --color-text: #002d42;
+  --color-inverted: black;
+  --color-inverted-text: white;
+  --spacing: 20px;
+  --spacing-small: 8px;
+  --spacing-large: 48px;
+}
+div#logo {
+ background-color: darkgoldenrod;
+}
+div#logo h2 {
+	text-shadow: 1px 1px 2px black, 0 0 25px rgb(179, 179, 202), 0 0 5px rgb(0, 60, 139);
+}
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+h2#textinfo {
+  color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px rgb(179, 179, 202), 0 0 5px rgb(0, 60, 139);
+}
+body {
+	background-color: #C0C0C0;
+	padding: 0;
+	margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+div#logo {
+	border-radius: 10px;
+	display: block;
+}
+div#container {
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+}
