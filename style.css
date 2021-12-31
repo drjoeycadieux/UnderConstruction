@@ -1,7 +1,12 @@
+html,h2,h3 {
+  color: white;
+}
+
 body {
 	padding: 0;
 	margin: 0;
-	background-color: white;
+background: rgb(80,115,150);
+background: linear-gradient(90deg, rgba(80,115,150,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .wrapper {
   margin-right: auto; /* 1 */
@@ -52,7 +57,7 @@ hr#new2 {
 
 
 /* Dark Mode */
-.dark-mode {
-  background-color: black;
-  color: white;
-}
+/* .dark-mode {
+background: rgb(39,38,47);
+background: linear-gradient(90deg, rgba(39,38,47,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+} */
