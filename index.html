@@ -18,7 +18,7 @@
 	<!-- Header Section -->
 
 	<div id="logo" class="container mt-4 p-4">
-		<h2 style="font-size: 50px; text-shadow: 2px 2px;" class="text-black text-center font-bold">
+		<h2 style="font-size: 50px; text-shadow: 2px 2px;" class="text-center font-bold">
 			TeamLitho | Under Re-Construction
 		</h2>
 		<div class="nav">
@@ -26,6 +26,7 @@
 				<li><a href="/index.html">Welcome</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#team">Our Team</a></li>
+				<button type="button" class="btn btn-Secondary" onclick="myFunction()">Dark Mode</button>
 			</ul>
 		</div>
 		<hr id="new2">
@@ -126,8 +127,11 @@
 	</div>
 
 
-	<script src="script.js">
-
-	</script>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
